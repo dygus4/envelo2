@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.title {
+  margin-top: 200px;
+  color: red;
+  font-size: 25px;
+}
+
+.inputs {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 0 15px 0 15px;
+}
+
+.form {
+  display: none;
+}
+
+.form.active {
+  display: block;
+}
+
+.btn-1 {
+  display: none;
+}
+
+.btn-1.active {
+  display: inline-block;
+}
+
+.btn {
+  margin: 30px;
+  padding: 20px;
+  background-color: red;
+}
+
+h4 {
+  margin: 3px;
+}
+
+.information {
+  display: none;
+}
+
+.information.active {
+  display: block;
+}
+
+/*
+
+  // MODALE
+
+* {
+    box-sizing: border-box;
+}
+.overlay {
+    position: fixed;
+     top: 0;
+    left: 0;
+    z-index: 999;
+  
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+    justify-content: center;
+    align-items: center;
+
+    overflow: auto;
+    padding: 30px;
+
+    display: none;
+}
+
+.overlay.show {
+    display: flex;
+}
+
+.modal {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    position: relative;
+    padding: 30px;
+    display: none;
+}
+.modal.show {
+    display: block;
+}
+.modal .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+}
+.modal {
+    .btn {
+        display: inline-block;
+        margin: 20px;
+    }
+    h2 {
+        margin: 30px;
+    }
+}
+*/
+
+/*# sourceMappingURL=style.css.map */

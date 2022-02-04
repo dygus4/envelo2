@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Paczkomat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+        <div class="blog">
+            <div class="container">
+                <div id="app"></div>
+
+                <div class="title">
+                  <h1>Envelo</h1>
+                </div>
+            
+                <div class="subtitle">
+                  <h2>Możesz mieć swoją przesyłkę w kilkanaście sekund.</h2>
+                  <h2>Rozpocznij klikając w przycisk</h2>
+                </div>
+                <button class="btn btn-1 active" id="first">Odbierz paczke</button>
+                <div class="form" id="second">
+                    <form>
+                        <div class="inputs">
+                            <div class="inp1">
+                                <h4>Numer telefonu</h4>
+                                <input type="tel" maxlength="9" minlength="9" required />
+                            </div>
+                            <div class="inp2">
+                                <h4>Kod odbioru</h4>
+                                <input type="tel" maxlength="4" minlength="4" required />
+                            </div>
+                        </div>    
+                        <button class="btn btn-2" type="submit" id="test-button">Odbierz paczke</button>
+                    </form>    
+                </div>
+
+                <div class="information" id='third'>
+                    <h2>Paczka odebrana !</h2>
+                      <h3>Zrobiłeś to w czasie 10sekund. Czy możemy zrobić dla Ciebie coś jeszcze?</h3>
+                      <button class="btn btn-3" id="fourth">To wszystko na dziś</button>
+                      <button class="btn btn-4" id="fifth">Odbierz kolejną paczkę</button>
+                </div>
+
+                
+              
+            </div>
+          </div>
+          
+          <script src="js/script.js"></script> 
+    </body>
+        
+</html>
+
