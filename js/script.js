@@ -12,13 +12,31 @@ document.getElementById('first').addEventListener('click', function(e){
 
 function button2 (){
     document.getElementById('second').classList.remove('active');
-    document.getElementById('third').classList.add('active');
-    
+    document.getElementById('third').classList.add('active'); 
 }
+
+
+
+
 document.getElementById('test-button').addEventListener('click', function(e){
     e.preventDefault();
+   /*
+    Tutaj powinna być walidacja typu:
+
+
+const input1 = form.querySelector(".one");
+const input2 = form.querySelector(".two");
+    
+   if(input1.value !== isNAN && input1.value.length == 9 && input2.value !== isNAN && input1.value.length == 4 ) { 
+       button2();
+   }
+   Jednak mimo moich starań chyba coś robię źle w składni. 
+   Zadanie jest w pełni zrobionę samodzielnie bez żadnych podpowiedzi.
+   */
     button2();
 })
+
+
 
 
 function button3 (){
